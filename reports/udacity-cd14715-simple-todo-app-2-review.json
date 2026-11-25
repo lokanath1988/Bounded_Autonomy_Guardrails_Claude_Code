@@ -1,0 +1,91 @@
+{
+  "pullRequest": {
+    "owner": "udacity",
+    "repo": "cd14715-simple-todo-app",
+    "number": 2
+  },
+  "fileReviews": [
+    {
+      "file": "src/todo.ts",
+      "codeQuality": {
+        "file": "src/todo.ts",
+        "issues": [
+          {
+            "line": 1,
+            "severity": "high",
+            "category": "best-practice",
+            "description": "Analysis failed: Claude Code process exited with code 1",
+            "suggestion": "Please ensure valid source code is provided"
+          }
+        ],
+        "overallScore": 0,
+        "summary": "Code quality analysis could not be completed due to an error"
+      },
+      "testCoverage": {
+        "file": "src/todo.ts",
+        "hasTests": false,
+        "testFiles": [],
+        "untestedPaths": [
+          {
+            "type": "function",
+            "location": "entire-file",
+            "priority": "critical",
+            "reasoning": "Analysis failed: Claude Code process exited with code 1",
+            "suggestedTest": "Unable to generate suggestions due to analysis error"
+          }
+        ],
+        "coverageEstimate": 0,
+        "summary": "Test coverage analysis could not be completed due to an error"
+      },
+      "refactorings": {
+        "file": "src/todo.ts",
+        "suggestions": [
+          {
+            "type": "extract-function",
+            "location": "entire-file",
+            "impact": "high",
+            "description": "Analysis failed: Claude Code process exited with code 1",
+            "before": "N/A",
+            "after": "N/A",
+            "benefits": "Unable to generate suggestions due to analysis error"
+          }
+        ],
+        "summary": "Refactoring analysis could not be completed due to an error"
+      }
+    }
+  ],
+  "summary": {
+    "totalFiles": 1,
+    "overallScore": 0,
+    "criticalIssues": 0,
+    "highPriorityTests": 1,
+    "refactoringOpportunities": 1
+  },
+  "recommendations": [
+    {
+      "priority": "high",
+      "category": "test-coverage",
+      "description": "Missing tests for entire-file: Analysis failed: Claude Code process exited with code 1",
+      "files": [
+        "src/todo.ts"
+      ]
+    },
+    {
+      "priority": "high",
+      "category": "refactoring",
+      "description": "extract-function: Analysis failed: Claude Code process exited with code 1",
+      "files": [
+        "src/todo.ts"
+      ]
+    }
+  ],
+  "metadata": {
+    "analyzedAt": "2026-11-25T12:58:53.834Z",
+    "duration": 0,
+    "agentVersions": {
+      "code-quality-analyzer": "1.0.0",
+      "test-coverage-analyzer": "1.0.0",
+      "refactoring-suggester": "1.0.0"
+    }
+  }
+}
