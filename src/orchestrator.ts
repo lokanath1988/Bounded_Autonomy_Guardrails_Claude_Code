@@ -188,7 +188,7 @@ Use the Task tool to invoke the 'code-quality-analyzer' subagent to perform this
           'refactoring-suggester': refactoringSuggester
         },
         tools: ['Read', 'Grep', 'Glob', 'Bash', 'Task', 'Skill'],
-        allowedTools: ['Task', 'Skill', 'Read', 'Grep', 'Glob'],
+        allowedTools: ['Task', 'Skill', 'Read', 'Grep', 'Glob', 'mcp__github', 'mcp__eslint'],
         mcpServers: mcpServersConfig,
         cwd: process.cwd()
       };
@@ -298,7 +298,7 @@ Use the Task tool to invoke the 'test-coverage-analyzer' subagent to perform thi
           'refactoring-suggester': refactoringSuggester
         },
         tools: ['Read', 'Grep', 'Glob', 'Bash', 'Task'],
-        allowedTools: ['Task', 'Skill', 'Read', 'Grep', 'Glob'],
+        allowedTools: ['Task', 'Skill', 'Read', 'Grep', 'Glob', 'mcp__github', 'mcp__eslint'],
         mcpServers: mcpServersConfig,
         cwd: process.cwd()
       };
@@ -407,7 +407,7 @@ Use the Task tool to invoke the 'refactoring-suggester' subagent to perform this
           'refactoring-suggester': refactoringSuggester
         },
         tools: ['Read', 'Grep', 'Glob', 'Bash', 'Task'],
-        allowedTools: ['Task', 'Skill', 'Read', 'Grep', 'Glob'],
+        allowedTools: ['Task', 'Skill', 'Read', 'Grep', 'Glob', 'mcp__github', 'mcp__eslint'],
         mcpServers: mcpServersConfig,
         cwd: process.cwd()
       };
